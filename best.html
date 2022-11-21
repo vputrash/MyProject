@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Реєстрація</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Ваше ім'я</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Ваше прізвище</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Ваша пошта</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Пароль (мінімум 6 символів)</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Підтвердіть пароль</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Відмінити</button>
+              <button type="button" class="btn btn-primary">Зареєструватися</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <header class="container-fluid">
+        <div class="container">
+            <a href="./index.html">Головна</a>
+            <a href="./info.html">Інформація</a>
+            <a href="./best.html">Найкращі сайти</a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Зареєструватися
+              </button>
+        </div>
+    </header>
+    <div class="container-lg">
+        <div class="text3">
+            <h3>Goodreads</h3>
+            <p>Люди часто описують <a href="#">Goodreads</a> як соціальна мережа для любителів книг, але це продає її трохи коротко. Маючи близько 80 мільйонів учасників, ви напевно можете знайти інших людей, з якими можна обговорити ваші улюблені книги, прочитати їхні огляди, стежити за тим, що вони читають тощо. Це як би мати книжковий клуб, але не потрібно раз на місяць зустрічатися особисто, щоб їсти страшні закуски і слухати, як люди говорять про все, окрім книг.</p>
+            <p>Goodreads також дозволяє вам тримати власну "полицю", де ви можете відстежувати книги, які ви читали чи хочете прочитати. Це також дозволяє переглядати книги за категоріями і навіть пропонує власні "нагороди за вибір", які допоможуть вам знайти чудові книги на будь-яку тему.</p>
+        </div>
+        <div class="text3">
+            <h3>FictFact: Відстежуйте свою серію книг</h3>
+            <p>Якщо ви читаєте серію книг (особливо ті довгі кримінальні чи пригодницькі серії, які можуть охоплювати десятки книг) або хочете розпочати серію, ви знаєте, як складно з’ясувати порядок, у якому слід читати книги. Зазвичай їх не нумерують на обкладинках, і більшість продавців книг (включаючи Amazon) погано справляються з показом вам замовлення. Потім ви залишаєте перебирати дати публікацій і намагатися скласти речі.</p>
+            <p>Ось де <a href="#">FictFact</a> Це безкоштовний сайт, де ви можете підключити будь-який заголовок, автора, назву серії чи ключове слово, а потім знайти список усіх книг серії, представлених у порядку їх читання. Зареєструйтеся в безкоштовному обліковому записі, і ви можете стежити за будь-якою кількістю серій. Ви також можете позначити окремі книги як такі, що їх потрібно читати, читати, читати чи пропускати.</p>
+        </div>
+        <div class="text3">
+            <h3>Що слід читати далі: Знайдіть свою наступну книгу</h3>
+            <p>Якщо ви завзятий читач, ви знаєте порожнє почуття, яке виникає після закінчення гарної книги. Щоб уникнути цього відчуття, ви можете спробувати відвідати <a href="#">Що слід читати далі</a>.</p>
+            <p>Сайт робить саме те, що підказує його назва, а саме рекомендує книги на основі щойно прочитаного. Введіть назву будь-якої книги (або автора), яка вам сподобалась, і веб-сайт порекомендує безліч книг, які ви, можливо, із задоволенням прочитаєте далі.</p>
+        </div>
+        <div class="text3">
+            <h3>Бунт книг: читайте огляди книг, новини та багато іншого</h3>
+            <p><a href="#">Книжковий бунт</a> це величезне видання, присвячене книгам та приємностям, які вони пропонують. Їх девіз: «писати про книги та читати має бути настільки ж різноманітно, як і книги та читачі».</p>
+            <p>Book Riot публікує огляди книг та топ-10 списків, рекомендує книги, має власний подкаст про книги, а також продає книги в їх інтернет-магазині. Яким би ненажерливим не був ваш апетит до читання, вам сподобається проводити час на Bookriot.</p>
+        </div>
+        <div class="text3">
+            <h3>PaperBackSwap: торгуйте вживаними книгами</h3>
+            <p><a href="#">PaperBackSwap</a> - клуб обміну книгами. Якщо у вас лежить купа фізичних книг, які ви хотіли б обміняти на деякі інші книги, тоді це ідеальний веб-сайт.</p>
+            <p>Веб-сайт безкоштовний. Все, що вам потрібно зробити, це зареєструватися та перерахувати книги, які ви хочете поміняти. Якщо інший учасник запитує одну з ваших книг, ви доставляєте її їм. Для кожної книги, яку ви відправляєте, ви можете замовити одну книгу в каталозі книг PaperBackSwap, перерахованих іншими людьми, який містить понад 1,5 мільйона книг.</p>
+            <p>Ви оплачуєте вартість доставки книг, які ви надсилаєте; книги, які ви отримуєте, безкоштовні.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <h4>Зв'язок з нами</h4>
+            <a href="mailto: putrashyk.volodymyr1@student.uzhnu.edu.ua">putrashyk.volodymyr1@student.uzhnu.edu.ua</a>
+            <a href="call: 3800951111111">095 111 11 11</a>
+            <a href="https://instagram.com">Instagram</a>
+            <a href="https://facebook.com">Facebook</a>
+        </div>
+    </footer>
+</body>
+</html>
